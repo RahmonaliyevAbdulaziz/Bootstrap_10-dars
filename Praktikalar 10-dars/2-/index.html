@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/mainjs.js"></script>
+</head>
+<body>
+<div class="container my-5 py-5">
+    <div class="row my-5 py-5">
+        <div class="col-md-12">
+            <button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-primary">
+                OPEN
+            </button>
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4>Edit</h4><span class="close" data-dismiss="modal">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                            <label for="title">Title:</label>
+                            <input type="text" id="title" placeholder="Task Empty" class="form-control">
+                            <label for="status">Status:</label>
+                            <select name="status" id="status" class="form-control">
+                                <option value="1">OPEN</option>
+                                <option value="2">Close</option>
+                                <option value="3">Nmadr</option>
+                            </select>
+                            <label for="Content">Content:</label>
+                            <textarea name="cntent" id="Content" rows="5" class="form-control"></textarea>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">close</button>
+                            <button type="submit" class=" btn btn-primary">save</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

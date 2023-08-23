@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/mainjs.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 my-5 py-5">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#content">
+                Learn More
+            </button>
+            <div class="modal" id="content">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5>Login</h5><span class="close" data-dismiss="modal">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="card p-0 border-0">
+                                        <div class="card-header bg-white border-bottom">Use a local to log in.</div>
+                                        <div class="card-body px-0">
+                                            <div class="row">
+                                               <div class="col-md-3 pr-1"><label for="em" class="float-right">Email</label></div>
+                                                <div class="col-md-9"><input type="text" id="em" class="form-control"></div>
+                                            </div>
+                                            <div class="row my-3">
+                                                <div class="col-md-3 pr-1"><label for="em1" class="float-right">Password</label></div>
+                                                <div class="col-md-9"><input type="password" id="em1" class="form-control"></div>
+                                            </div>
+                                            <div class="row mb-3 offset-4">
+                                                <input type="checkbox" id="chel"><label for="chel" class="mt-2 ml-2">Remember me?</label>
+                                            </div>
+                                            <div class="row mb-3 offset-4">
+                                                 <button class=" px-2 bordered bg-white" type="button">Login</button>
+                                            </div>
+                                            <div class="row offset-4">
+                                                <a href="#" class="">Register as a new user</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card-header bg-white border-bottom font-weight-bold p-0" style="font-size: 13px">Use a another services to log in.</div>
+                                    <div class="card-text text-justify mt-4" style="font-size: 12px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi aperiam beatae impedit incidunt inventore labore laudantium, minus perspiciatis placeat provident quas quod quos rerum saepe similique ut voluptas voluptate?</div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer"><button type="button" data-dismiss="modal" class="btn border py-1" style="background-color: transparent">
+                        close</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
